@@ -28,13 +28,12 @@ To reach Second Normal Form ->
 
 **Partial Dependency** happen when The primary key is composite and we find A non-key column depends on only part of the primary key not on the whole primary key.
 
- The Student_Address depend on Student_Name only
-
+The Student_Address depend on Student_Name only
 So
 The `2NF` is ->
 ( Student_Name , City , Street , Zip )
 ( Student_Name , Student_Phone )
-(Course_Title , Instructor_Name , Instructor_Dept , Dept_Building  ) 
+(Course_Title , Instructor_Name , Instructor_Dept , Dept_Building ) 
 (Student_Name,Course_Title, Grade) 
 ---
 ## STEP 3 :

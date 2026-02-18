@@ -24,4 +24,4 @@ such as ->`insert` , `update` , `delete`
 ---
 
 ## 3 Why is Normalization important for a large system like a university database?
-    because normalization provid the system with (reduces duplication - avoid update,insert and delete anomailes- prevents inconsistent or wronge data-easier to maintain and grow )so the system becomes faster and cleaner 
+because normalization provid the system with (reduces duplication - avoid update,insert and delete anomailes- prevents inconsistent or wronge data-easier to maintain and grow )so the system becomes faster and cleaner 
