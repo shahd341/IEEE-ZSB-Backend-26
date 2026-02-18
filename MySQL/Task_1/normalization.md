@@ -20,7 +20,9 @@ So
 The `1NF` is 
 ( Student_Name , City , Street , Zip , Course_Title , Instructor_Name , Instructor_Dept , Dept_Building , Grade ) 
 ( Student_Name , Student_Phone )
+
 ---
+
 ## STEP 2 :
 To reach Second Normal Form ->
 1. it is already in `1NF`
@@ -29,13 +31,16 @@ To reach Second Normal Form ->
 **Partial Dependency** happen when The primary key is composite and we find A non-key column depends on only part of the primary key not on the whole primary key.
 
 The Student_Address depend on Student_Name only
+
 So
 The `2NF` is ->
 ( Student_Name , City , Street , Zip )
 ( Student_Name , Student_Phone )
 (Course_Title , Instructor_Name , Instructor_Dept , Dept_Building ) 
 (Student_Name,Course_Title, Grade) 
+
 ---
+
 ## STEP 3 :
 To reach Third Normal Form (`3NF`) -> 
 1- It is already in `2NF`
