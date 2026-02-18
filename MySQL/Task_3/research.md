@@ -34,7 +34,7 @@ having count(*) >100
 These SQL commands used to remove data , but in different ways .
 
 *DELETE*
-1. `delet` is a DML command used to remove specific rows
+1. `delete` is a DML command used to remove specific rows
 2. can use `where`
 3. can be rolled back 
 
