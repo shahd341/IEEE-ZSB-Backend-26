@@ -30,10 +30,10 @@ having count(*) >100
 ```
 ---
 
-## 2. DELET vs TRUNCATE vs DROP
+## 2. DELETE vs TRUNCATE vs DROP
 These SQL commands used to remove data , but in different ways .
 
-*DELET*
+*DELETE*
 1. `delet` is a DML command used to remove specific rows
 2. can use `where`
 3. can be rolled back 
