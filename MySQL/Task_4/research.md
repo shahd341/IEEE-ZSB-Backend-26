@@ -30,6 +30,7 @@
    . `UNION` shows it once.
 
    . `UNION ALL` shows it multiple times.
+   
    ---
 
 ### PERFORMANCE
