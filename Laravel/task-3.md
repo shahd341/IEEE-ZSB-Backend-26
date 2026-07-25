@@ -1,4 +1,4 @@
-# Task 2 - Laravel Research
+#  Research Questions
 
 ## 1. What is the N+1 Query Problem in Laravel?
 
